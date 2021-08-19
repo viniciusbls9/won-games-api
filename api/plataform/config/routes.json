@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/plataforms",
+      "handler": "plataform.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plataforms/count",
+      "handler": "plataform.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/plataforms/:id",
+      "handler": "plataform.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/plataforms",
+      "handler": "plataform.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/plataforms/:id",
+      "handler": "plataform.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/plataforms/:id",
+      "handler": "plataform.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
