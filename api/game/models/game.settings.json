@@ -83,6 +83,11 @@
     "publisher": {
       "model": "publisher",
       "via": "games"
+    },
+    "developers": {
+      "collection": "developer",
+      "via": "games",
+      "dominant": true
     }
   }
 }
